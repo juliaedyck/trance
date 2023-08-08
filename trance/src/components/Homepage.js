@@ -12,10 +12,11 @@ const Homepage = ()=> {
 }
 
 const Wrapper = styled.div`
-max-height:100vh;
+height:100vh;
 max-width: 100%;
 display:flex;
 justify-content:center;
+align-items: center;
 
 `
 
