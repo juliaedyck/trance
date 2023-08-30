@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.d4ffff15.js",
+    "main.js": "/static/js/main.c424b815.js",
     "static/js/787.7c7df9a8.chunk.js": "/static/js/787.7c7df9a8.chunk.js",
-    "static/media/hypno poster 29.06.23.jpg": "/static/media/hypno poster 29.06.23.4569b9d275b075e0e871.jpg",
+    "static/media/hypno poster_09.23.png": "/static/media/hypno poster_09.23.15c59db3b09c29adab79.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.d4ffff15.js.map": "/static/js/main.d4ffff15.js.map",
+    "main.c424b815.js.map": "/static/js/main.c424b815.js.map",
     "787.7c7df9a8.chunk.js.map": "/static/js/787.7c7df9a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d4ffff15.js"
+    "static/js/main.c424b815.js"
   ]
 }
