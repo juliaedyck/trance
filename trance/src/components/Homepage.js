@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../images/hypno poster 15.10.23_.jpg"
+import img from "../images/hypno poster 11.23_2.jpg"
 
 const Homepage = ()=> {
 
