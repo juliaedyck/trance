@@ -51,13 +51,15 @@ Diana Duta’s research explores the voice and sound as both objects of theoreti
 }
 
 const Img = styled.img`
-max-width: 90%;
-
+width: 90%;
+height: auto;
 margin-bottom: 3%;
 margin-top: 3%;
 
 @media (min-width: 768px) {
     max-height: 500px;
+    width: auto;
+
 
 
   }
