@@ -12,6 +12,7 @@ const App = ()=> {
   <>
   <Router>
   <GlobalStyles/>
+  <div>
 
   <Routes>
     <Route path="/" element={<Homepage />} />
@@ -21,6 +22,7 @@ const App = ()=> {
 
 
     </Routes>
+    </div>
 
 </Router>
   </>
