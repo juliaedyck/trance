@@ -44,18 +44,20 @@ color: var(--background-color);
 background-color: white;
 border:0px;
 border-radius: 3%;
-width: 100px;
+width: 100%;
 height: 50px;
-margin: 7%;
+margin-top: 7%;
+margin-bottom: 7%;
 font-size: 20px;
 
 
 
 @media (min-width: 821px) {
 width: 100px;
-height: 80px;
+height: 50px;
 border-radius: 3%;
 margin: 50px;
+
 }
 `
 

@@ -71,11 +71,13 @@ const Close = styled.div`
   justify-content: flex-end;
   padding: 3%;
   text-decoration: none;
+
 `;
 
 const Alink = styled.a`
 text-decoration: none;
 font-size: 20px;
+color: black;
 `
 
 
