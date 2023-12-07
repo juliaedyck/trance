@@ -1,12 +1,17 @@
 import styled from "styled-components";
-import img from "../images/hypno poster 11.23_2.jpg"
+import img from "../images/hypno poster 12.23.jpg"
+
+
 
 const Homepage = ()=> {
 
     return (
         <Wrapper>
  <Img src= {img}/>
+
+ 
         </Wrapper>
+
     )
 
 }
