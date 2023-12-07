@@ -4,12 +4,9 @@ import "../index.css"
 export default createGlobalStyle`
 
 :root {
-	/* --font-heading: 
-	--font-body: */
-	--color-pink: #f7c2ce;
-	--color-green: #669966;
-    --color-blue: #336699;
-    --background-color: #f7c2ce;
+ --font-heading: "Sonsie One";
+	--font-body:"Poppins";
+    --background-color: #5fa8f7;
 	@media (min-width: 768px) {
    
       }
