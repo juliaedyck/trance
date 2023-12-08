@@ -62,10 +62,8 @@ margin: 50px;
 `
 
 const Img = styled.img`
-
-max-width:100%;
-max-height: 100vh;
-
+max-height: 80%;
+max-width: 90%;
 
 `
 

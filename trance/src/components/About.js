@@ -17,9 +17,12 @@ const About = () => {
 <Wrapper>
     <h1>Transcendence and Relaxation through Aural and Narrative Community Experience
 </h1>
-<Img src= {img}/>
 <Des>
-A group hypnosis session organised monthly in Brussels by Julia E. Dyck and Diana Duta.
+A group hypnosis session organised monthly in Brussels by 
+<WebLink href= "https://www.juliaedyck.com/" target="blank"> Julia E. Dyck  </WebLink>
+ and 
+<WebLink href= "https://dianaduta.com/" target="blank"> Diana Duta  </WebLink>
+ Diana Duta.
 </Des>
 <Des>
 
@@ -41,6 +44,7 @@ Diana Duta’s research explores the voice and sound as both objects of theoreti
 
 
     </Des>
+<Img src= {img}/>
 </Wrapper>
 </Background>
 </>
@@ -90,7 +94,7 @@ font-family: "Sonsie One";
 const Background = styled.div`
 height: 100vh;
 width: 100%;
-background-color: #fe9c64;
+background-color: white;
 
 overflow: scroll;
 font-family: "Sonsie One";
@@ -122,5 +126,8 @@ const Des = styled.p`
 
   }
 `;
+
+const WebLink = styled.a`
+color: black;`
 
 export default About;
