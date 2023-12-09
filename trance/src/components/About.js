@@ -22,7 +22,6 @@ A group hypnosis session organised monthly in Brussels by
 <WebLink href= "https://www.juliaedyck.com/" target="blank"> Julia E. Dyck  </WebLink>
  and 
 <WebLink href= "https://dianaduta.com/" target="blank"> Diana Duta  </WebLink>
- Diana Duta.
 </Des>
 <Des>
 
