@@ -2,7 +2,7 @@ import styled from "styled-components";
 import img from "../images/trance3_dd edit.jpg"
 import { NavLink } from "react-router-dom";
 import CloseButton from "react-bootstrap/CloseButton";
-
+import { Email } from "./Email";
 
 const About = () => {
 
@@ -44,8 +44,10 @@ Diana Duta’s research explores the voice and sound as both objects of theoreti
 
     </Des>
 <Img src= {img}/>
+<Email/>
 </Wrapper>
 </Background>
+
 </>
 
 
