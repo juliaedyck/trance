@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../images/hypno poster 02.18.24.jpg"
+import img from "../images/hypno poster 03.24.jpg"
 import Listen from "./Listen";
 import { NavLink } from "react-router-dom";
 
@@ -49,6 +49,7 @@ height: 50px;
 margin-top: 7%;
 margin-bottom: 7%;
 font-size: 20px;
+cursor:pointer;
 
 
 
@@ -68,10 +69,13 @@ max-width: 90%;
 `
 
 const StyledNavLink = styled(NavLink)`
+cursor: pointer;
 
 `;
 
 const BtnWrap = styled.div`
+
+
 
 `
 export default Homepage;

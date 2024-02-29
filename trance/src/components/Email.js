@@ -62,10 +62,10 @@ export const Email = () => {
 
   return (
     <Form>
-      <p>
+      <Text>
         {" "}
         Join the mailing list to be informed about each session (1 email/month)
-      </p>
+      </Text>
       <form onSubmit={onSubmit}>
         <Inputs>
           <Input
@@ -90,6 +90,11 @@ export const Email = () => {
     </Form>
   );
 };
+
+const Text = styled.p`
+font-weight: bold;
+`;
+
 
 const Form = styled.div`
   max-width: 600px;

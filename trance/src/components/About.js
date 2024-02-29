@@ -43,8 +43,8 @@ Diana Duta’s research explores the voice and sound as both objects of theoreti
 
 
     </Des>
+<Email/> 
 <Img src= {img}/>
-<Email/>
 </Wrapper>
 </Background>
 
@@ -59,7 +59,7 @@ const Img = styled.img`
 max-width: 90%;
 height: auto;
 margin-bottom: 3%;
-margin-top: 3%;
+
 
 @media (min-width: 768px) {
     max-height: 500px;
@@ -120,6 +120,8 @@ const Des = styled.p`
   font-family: var(--font-body);
   font-size: 18px;
   margin-top: 2%;
+  margin-bottom: 2%;
+
 
   @media (min-width: 768px) {
     font-size: 16px;
