@@ -17,7 +17,8 @@ const Listen = () => {
 <Wrapper>
 <Img src= {img}/>
 
-<iframe src="https://player-widget.mixcloud.com/widget/iframe/?light=1&hide_artwork=1&autoplay=1&feed=%2Fjulia-dyck%2Fpleasure-leisure%2F" allow="autoplay"></iframe> 
+<iframe src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&hide_artwork=1&feed=%2Fjulia-dyck%2Fpleasure-leisure%2F" allow="autoplay"></iframe> 
+
 
 </Wrapper>
 </Background>
