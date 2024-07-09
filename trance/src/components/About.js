@@ -131,6 +131,7 @@ const Des = styled.p`
 `;
 
 const WebLink = styled.a`
-color: black;`
+color: black;
+`
 
 export default About;
