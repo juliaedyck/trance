@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../images/hypno poster 07.24.jpg"
+import img from "../images/hypno poster 29.08.24_brown.jpg"
 import Listen from "./Listen";
 import { NavLink } from "react-router-dom";
 
