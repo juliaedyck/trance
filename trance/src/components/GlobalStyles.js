@@ -6,7 +6,7 @@ export default createGlobalStyle`
 :root {
  --font-heading: "Sonsie One";
 	--font-body:"Poppins";
-    --background-color: #fc4d38;
+    --background-color: #d9b1e7;
 	@media (min-width: 768px) {
    
       }
