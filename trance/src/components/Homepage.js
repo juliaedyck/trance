@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../images/trance_plek.jpg"
+import img from "../images/trancejan26.png"
 import Listen from "./Listen";
 import { NavLink } from "react-router-dom";
 
