@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+# full-size photo originals (resized copies live in src/images)
+/original-photos
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

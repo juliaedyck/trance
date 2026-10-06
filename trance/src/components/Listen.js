@@ -15,9 +15,9 @@ const Listen = () => {
         </Alink>
       </Close>
 <Wrapper>
-<Img src= {img}/>
+{/* <Img src= {img}/> */}
 
-<iframe src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&hide_artwork=1&feed=%2Fjulia-dyck%2Fpleasure-leisure%2F" allow="autoplay"></iframe> 
+<iframe title="T.R.A.N.C.E. (Pleasure/Perspective)" style={{ border: 0, width: "350px", height: "470px" }} src="https://bandcamp.com/EmbeddedPlayer/album=3728223604/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/transparent=true/" seamless><a href="https://bbjtc.bandcamp.com/album/t-r-a-n-c-e-pleasure-perspective">T.R.A.N.C.E. (Pleasure/Perspective) by Julia E. Dyck &amp; Diana Duta</a></iframe>
 
 
 </Wrapper>
@@ -44,7 +44,7 @@ display:flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-background-color: #fe579c;
+background-color: #f171a2;
 font-family: "Sonsie One";
   padding-left: 5%;
   padding-right: 5%;
@@ -59,7 +59,7 @@ font-family: "Sonsie One";
 const Background = styled.div`
 height: 100vh;
 width: 100%;
-background-color: #fe579c;
+background-color: #f171a2;
 
 overflow: scroll;
 font-family: "Sonsie One";

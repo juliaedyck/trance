@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.e006b054.css",
-    "main.js": "/static/js/main.832bd7f4.js",
+    "main.js": "/static/js/main.e262805c.js",
     "static/js/787.7c7df9a8.chunk.js": "/static/js/787.7c7df9a8.chunk.js",
     "static/media/trance3_dd edit.jpg": "/static/media/trance3_dd edit.1faccae4a838d1814fa0.jpg",
     "static/media/hypno poster 29.06.23.jpg": "/static/media/hypno poster 29.06.23.4569b9d275b075e0e871.jpg",
     "static/media/trancejuly.png": "/static/media/trancejuly.7c5398fa6d181d1c4c1f.png",
+    "static/media/P1250371thangible.jpg": "/static/media/P1250371thangible.ef523665c97eb2fe6ee8.jpg",
+    "static/media/group_4.jpg": "/static/media/group_4.4450b22c579195cd233c.jpg",
+    "static/media/materiel-appui_dyck-julia-4.jpg": "/static/media/materiel-appui_dyck-julia-4.c4fe611728dc2cf55658.jpg",
+    "static/media/9R4A8724.jpg": "/static/media/9R4A8724.d9efe6ecd872803e5527.jpg",
     "index.html": "/index.html",
     "main.e006b054.css.map": "/static/css/main.e006b054.css.map",
-    "main.832bd7f4.js.map": "/static/js/main.832bd7f4.js.map",
+    "main.e262805c.js.map": "/static/js/main.e262805c.js.map",
     "787.7c7df9a8.chunk.js.map": "/static/js/787.7c7df9a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e006b054.css",
-    "static/js/main.832bd7f4.js"
+    "static/js/main.e262805c.js"
   ]
 }
