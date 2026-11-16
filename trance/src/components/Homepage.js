@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../images/trancejuly.png"
+import img from "../images/trance03.12.26.png"
 import Listen from "./Listen";
 import { NavLink } from "react-router-dom";
 
@@ -10,7 +10,10 @@ const Homepage = ()=> {
         <Wrapper>
       <BtnWrap><StyledNavLink to= "/about"> <Button>about </Button></StyledNavLink></BtnWrap>
 
+ <Center>
  <Img src= {img}/>
+ <RsvpButton as="a" href="https://hipsy.be/event/266529-trance-community-hypnosis" target="_blank" rel="noreferrer">rsvp</RsvpButton>
+ </Center>
  <BtnWrap><StyledNavLink to= "/listen"> <Button>listen </Button></StyledNavLink></BtnWrap>
 
  
@@ -21,7 +24,7 @@ const Homepage = ()=> {
 }
 
 const Wrapper = styled.div`
-height:100vh;
+min-height:100vh;
 max-width: 100%;
 display:flex;
 flex-direction: column; 
@@ -62,10 +65,38 @@ margin: 50px;
 }
 `
 
-const Img = styled.img`
-max-height: 80%;
-max-width: 90%;
+/* Same look as the about/listen buttons, but it's a link to Hipsy */
+const RsvpButton = styled(Button)`
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+margin: 0;
 
+@media (min-width: 821px) {
+margin: 0;
+}
+`
+
+const Img = styled.img`
+max-height: 80vh;
+max-width: 100%;
+margin-bottom: 20px;
+`
+
+/* Image with the ticket widget underneath */
+const Center = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 90%;
+padding-top: 40px;
+padding-bottom: 40px;
+
+@media (min-width: 821px) {
+width: auto;
+flex: 0 1 700px;
+}
 `
 
 const StyledNavLink = styled(NavLink)`
